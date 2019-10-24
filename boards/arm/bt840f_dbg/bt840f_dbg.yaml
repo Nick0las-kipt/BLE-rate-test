@@ -1,0 +1,9 @@
+identifier: bt840f_dbg
+name: BT840F Debug
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+ram: 256
+flash: 1024

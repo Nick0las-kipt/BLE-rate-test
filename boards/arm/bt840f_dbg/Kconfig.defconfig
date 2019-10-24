@@ -1,0 +1,17 @@
+# Kconfig - nRF52840 BT840F module for Debug
+
+if BOARD_BT840F_DBG
+
+config BOARD
+	default "bt840f_dbg"
+
+config BT_CTLR
+	default BT
+
+config NRFX_UARTE0
+    default y
+
+config NRFX_UARTE1
+    default y
+
+endif

@@ -1,0 +1,6 @@
+build/
+build840/
+modules/
+tools/
+.west/
+zephyr

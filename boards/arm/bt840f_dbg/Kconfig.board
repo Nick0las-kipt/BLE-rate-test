@@ -1,0 +1,5 @@
+# Kconfig - nRF52840 BT840F module
+
+config BOARD_BT840F_DBG
+	bool "bt840f module for debug"
+	depends on SOC_NRF52840_QIAA

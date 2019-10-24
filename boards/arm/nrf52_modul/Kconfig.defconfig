@@ -1,0 +1,15 @@
+# Kconfig - nRF52 BLENANO 2 board configuration
+#
+# Copyright (c) 2016 Nordic Semiconductor ASA
+#
+# SPDX-License-Identifier: Apache-2.0
+
+if BOARD_NRF52_MODUL
+
+config BOARD
+	default "nrf52_modul"
+
+config BT_CTLR
+	default BT
+
+endif
